@@ -562,6 +562,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 28fe2873cdcc547e4bbc4aa343c185b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  wife: 0
+  daughter: 0
+  son: 0
+  image: {fileID: 1479030352}
   delay: 0.1
   speed: 3
   mytxt: {fileID: 1606519872}
@@ -677,6 +681,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a53f3b2e5738148cb9b460043aca2cde, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  wife: 0
+  daughter: 0
+  son: 0
   target: {fileID: 1400748883}
 --- !u!54 &963194230
 Rigidbody:
@@ -1248,6 +1255,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e1b95962e4f8c46cbbdfb78684bee729, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  wife: 0
+  daughter: 0
+  son: 0
 --- !u!1 &1436430214
 GameObject:
   m_ObjectHideFlags: 0
@@ -1364,7 +1374,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
   m_Color: {r: 0.01886791, g: 0.018422913, b: 0.018422913, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
